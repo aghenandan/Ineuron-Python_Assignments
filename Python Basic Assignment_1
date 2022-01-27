@@ -1,0 +1,107 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+* 
+'hello'
+-87.8
+- 
+/ 
++	
+6 
+
+Ans:
+* --> Expression (Mathematical Operator)
+'hello' --> Value (String)
+-87.8 --> Value (Float)
+- --> Expression (Mathematical Operator)
+/ --> Expression (Mathematical Operator)
++ --> Expression (Mathematical Operator)
+6 --> Value (Integer)
+
+------------------------------------------------------------------------------
+
+2. What is the difference between string and variable?
+
+Ans:
+String: 1. Anything enclosed within quotes (' or ").
+        2. Immutable i.e cannot be changed.
+        3. Can be assigned to a variable.
+Variable: 1. Used to store data.
+          2. Can be changed even during program execution.
+          3. Stores almost all data types and structures.
+          4. A variable name can only contain alpha-numeric characters and underscores. 
+             A variable name must start with a letter or the underscore character and cannot start with a number.
+
+------------------------------------------------------------------------------
+
+3. Describe three different data types.
+
+Ans:
+  1. String (Text type)
+     Enclosed within quotes.
+     Immutable.
+     eg : "String", "#12-8"
+  2. Integer, Float, Complex (Numeric Type)
+     int --> 23, 67
+     float --> 2.76, .9, .3e7
+  3. bool (Boolean type)
+     True(1),False(0)   
+
+------------------------------------------------------------------------------
+
+4. What is an expression made up of? What do all expressions do?
+
+Ans:
+  An expression is made up of values, variables, operators that can evaluate or represent a value as per the precedence of its operators.
+  Expressions are used mostly to compute and write or return a value.
+
+------------------------------------------------------------------------------
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+Ans:
+  An Expression always evaluates to a value. Every expression can’t be a statement.
+  Statements represent an action or command e.g print statements, assignment statements. Every statement can be an expression.
+
+------------------------------------------------------------------------------
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans:
+Variable bacon contains 22 as the operation was not saved.
+
+------------------------------------------------------------------------------
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Ans:
+Both the operations give the same output --> 'spamspamspam'
+
+------------------------------------------------------------------------------
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Ans:
+A variable name can start with either alphabets or underscore and cannot start with a number.
+So "100" is invalid.
+
+------------------------------------------------------------------------------
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+Ans:
+int(),float(),str()
+
+------------------------------------------------------------------------------
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Ans:
+Concatenation of a string with integer is not possible. It can be fixed with typecasting.
+Either change the type of string to integer or integer to string.
+eg: 'I have eaten ' + str(99) + ' burritos'
+
+------------------------------------------------------------------------------
